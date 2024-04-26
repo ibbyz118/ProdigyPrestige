@@ -1,0 +1,466 @@
+/* Reset */
+* {
+    /* Alternative box model */
+    box-sizing: border-box;
+
+    /* Reset padding and margin on all elements */
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Typography */
+html {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+body {
+    font-family: Poppins;
+    color: white;
+    background-color: black;
+}
+
+h3 {
+font-size: 3.5rem;
+font-weight: 400;
+text-align: center;
+margin-bottom: 36px;
+margin-top: 67px;
+}
+
+h4 {
+font-size: 2.2rem;
+font-weight: 300;
+margin-bottom: 3.8rem;
+}
+
+h5 {
+    font-size: 2.2rem;
+font-weight: 300;
+
+}
+
+li {
+    font-size: 1.3rem;
+    font-weight: 100; 
+    margin-bottom: 1.5rem;
+}
+
+p.small {
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+margin-top: 1.2rem;
+}
+
+.elevating {
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+    width: 745px;
+    height: 5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.colour {
+    color: #C7AC8F;
+}
+
+
+p.small-bold {
+    font-size: 1.3rem;
+    font-weight: 400;
+    max-width: 281px;
+    text-align: left;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+
+p.large {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+    text-align: center;
+    margin-top: 59px;
+}
+
+.bigger {
+    font-size: 64px;
+    color: #C7AC8F;
+}
+
+
+
+a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: white;
+    font-family: poppins;
+    margin-bottom: 5.2rem;
+}
+a:hover {
+    color: #C7AC8F;
+}
+
+form button {
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: poppins;
+    color: white;
+}
+
+button:hover {
+    color: #C7AC8F;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container.small {
+    width: 60%;
+}
+
+/* Header */
+
+.main-header {
+    text-align: center;
+    padding: 6.3rem 0;
+}
+
+
+
+.main-header {
+background-image: url(pexels-cottonbro-4101143\ overlay.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+
+
+a.apply-now{
+    padding: 16px 31px;
+    background-color: #22333B;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, .6);
+}
+
+a.apply-now:hover {
+    background-color: white;
+
+}
+
+.about-us {
+    text-align: center;
+    margin-bottom: 56px;
+    max-width: 700px;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.specialise {
+    max-width: 550px;
+    font-size: 25px;
+    margin-bottom: 33px;
+}
+
+.singular {
+    max-width: 550px;
+    font-size: 25px;
+
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.left-content, .right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-content {
+    margin-top: -60px;
+
+}
+
+.we {
+    text-align: center;
+    margin-bottom: -50px;
+    margin-left: -150px;
+}
+
+.our-services {
+    margin-bottom: 100px;
+}
+
+.custom-list {
+    margin-top: 5px;
+    list-style-type: none;
+    position: relative;
+    margin-left: -150px;
+
+}
+
+.custom-list li {
+margin-bottom: 5px;
+background-image: url(cross\ icon-01.png);
+background-size: 19px;
+background-repeat: no-repeat;
+padding-left: 27px;
+background-position: 0 7px;
+}
+
+.red {
+    color: #D58D8D;
+}
+
+.green {
+    color: #8FC79B;
+}
+
+.gallery {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.numbers {
+    width: 98px;
+    height: 98px;
+}
+
+.steps1 {
+    max-width: 194px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 69px;
+}
+
+
+.steps2 {
+    max-width: 247px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 69px;
+}
+
+
+.steps3 {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+}
+
+form {
+    margin-bottom: 34px;
+    font-weight: 300;
+}
+
+label {
+    display: block;
+    margin-top: 34px;
+}
+
+form label {
+    margin-bottom: 14px;
+}
+
+button {
+    display: block;
+    background-color: #22333B;
+    border: none;
+    width: 180px;
+    height: 64px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, .6);
+    margin-top: 34px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAE0D5;
+    color: black;
+    width: 622px;
+    height: 516px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 49px;
+    border-radius: 10px;
+}
+
+.logo-bottom {
+    margin-bottom: 97px;
+}
+
+.logo-bottom:hover {
+    cursor: default;
+}
+
+.hover-none:hover {
+    cursor: default;
+}
+
+.footer {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input, form textarea {
+    border: none;
+    width: 477px;
+    height: 53px;
+    border-radius: 7px;
+    font-size: 18px
+}
+
+form input {
+    padding-left: 10px;
+    font-family: poppins;
+    font-weight: 300;
+
+}
+
+/* Pop up */
+
+.popup {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -400px) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    display: none;
+
+}
+
+.open-popup {
+    visibility: visible;
+    transform: translate(-50%, -400px) scale(1);
+}
+
+.popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    #logo {
+        max-width: 400px;
+    }
+    p {
+        font-size: 15px;
+    }
+
+    .elevating {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+    
+    p.large {
+        font-size: 25px;
+    }
+
+    span.bigger {
+        font-size: 35px;
+    }
+
+    p.small {
+        font-size: 18px;
+    }
+
+    a.apply-now {
+        font-size: 20px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    h4 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 25px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .numbers {
+        margin-top: 20px;
+    }
+
+    #my-form {
+    }
+
+    .form-container {
+        width: 350px;
+    }
+
+    form input {
+        width: 250px;
+    }
+
+    li {
+        font-size: 20px;
+        margin-left: 160px;
+    }
+
+    p.small-bold {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .we {
+        margin-top: 100px;
+        margin-right: 60px;
+    }
+
+    .our-services {
+        margin-bottom: 10px;
+    }
+
+} 
